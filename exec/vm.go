@@ -148,10 +148,15 @@ func NewModule(
 
 	m.DisableFloatingPoint = config.DisableFloatingPoint
 
+
+	fmt.Println("CompileForInterpreter begin:"+time.Now().UTC().String())
 	functionCode, err := m.CompileForInterpreter(gasPolicy)
 	if err != nil {
 		return nil, err
 	}
+
+
+	fmt.Println("CompileForInterpreter end  :"+time.Now().UTC().String())
 
 	defer utils.CatchPanic(&retErr)
 
