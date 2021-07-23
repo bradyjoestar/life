@@ -89,7 +89,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/perlin-network/life/exec"
+	"github.com/bradyjoestar/life/exec"
 )
 
 //export go_vm_throw_s

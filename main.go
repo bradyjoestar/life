@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/perlin-network/life/exec"
-	"github.com/perlin-network/life/platform"
-	wasm_validation "github.com/perlin-network/life/wasm-validation"
+	"github.com/bradyjoestar/life/exec"
+	"github.com/bradyjoestar/life/platform"
+	wasm_validation "github.com/bradyjoestar/life/wasm-validation"
 	"io/ioutil"
 	"strconv"
 	"time"

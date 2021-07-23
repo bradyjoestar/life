@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/perlin-network/life/compiler"
-	"github.com/perlin-network/life/exec"
+	"github.com/bradyjoestar/life/compiler"
+	"github.com/bradyjoestar/life/exec"
 	"io/ioutil"
 	"os"
 	"path"

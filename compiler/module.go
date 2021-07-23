@@ -9,8 +9,8 @@ import (
 	"github.com/go-interpreter/wagon/wasm"
 	"github.com/go-interpreter/wagon/wasm/leb128"
 
-	"github.com/perlin-network/life/compiler/opcodes"
-	"github.com/perlin-network/life/utils"
+	"github.com/bradyjoestar/life/compiler/opcodes"
+	"github.com/bradyjoestar/life/utils"
 )
 
 type Module struct {

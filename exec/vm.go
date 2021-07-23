@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-interpreter/wagon/wasm"
 
-	"github.com/perlin-network/life/compiler"
-	"github.com/perlin-network/life/compiler/opcodes"
-	"github.com/perlin-network/life/utils"
+	"github.com/bradyjoestar/life/compiler"
+	"github.com/bradyjoestar/life/compiler/opcodes"
+	"github.com/bradyjoestar/life/utils"
 )
 
 type FunctionImport func(vm *VirtualMachine) int64
