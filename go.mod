@@ -1,4 +1,6 @@
-module github.com/perlin-network/life
+module github.com/bradyjoestar/life
+
+go 1.16
 
 require (
 	github.com/go-interpreter/wagon v0.6.0
@@ -7,4 +9,3 @@ require (
 	google.golang.org/appengine v1.6.0 // indirect
 )
 
-go 1.13
